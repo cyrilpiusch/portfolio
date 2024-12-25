@@ -1,0 +1,122 @@
+.box1
+{
+    background-color: rgba(255, 123, 0, 0.925);
+    color: rgb(255, 255, 255);
+    font-family:"Verdana",sans-serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:10px;
+    height: 30vh;
+    align-items:center;
+}
+.d1
+{
+    display: flex;
+    flex-direction:row;
+}
+.box2
+{
+    margin-top:2px;
+    background-color: rgba(16, 0, 106, 0.925);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    flex-direction: column;
+    font-family:"Verdana",sans-serif;
+    align-items: center;
+    height: 230vh;
+}
+.img1
+{
+    border-radius: 50%;
+}
+.contactitem,.contactitem1 {
+    text-decoration: none;
+    margin: 5px ;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.about
+{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.skills
+{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education
+{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address
+{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact
+{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact input,.contact textarea
+{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+  
+.contact button
+{
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.about:hover,.contact:hover,.address:hover,.education:hover,.skills:hover
+{
+    scale: 110%;
+}
+
+.contact button:hover 
+{
+    background-color: rgba(255, 123, 0, 0.925);
+}
